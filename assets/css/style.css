@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.barrel {
+    width: 6vw;
+    height: 10vh;
+    border-radius: 100%;
+    background: burlywood;
+    animation: barrelMove 20s infinite linear;
+}
+.barrel::before {
+    width: 5vw;
+    height: 5vh;
+    background: chartreuse;
+}
+
+@keyframes barrelMove {
+    0% {
+
+    }
+    25% {
+        transform: translateX(90vw) translateY(30vh) rotate(1080deg);
+    }
+
+    30% {
+
+    }
+    50% {
+        transform: translateX(-0vw) translateY(60vh)
+    }
+    75% {
+        transform: translateX(90vw) translateY(90vh) rotate(2160deg)
+    }
+    100% {
+        transform: translateX(-0vw) translateY(90vh) ;
+    }
+}
