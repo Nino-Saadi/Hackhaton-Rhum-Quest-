@@ -10,8 +10,8 @@
     animation: barrelMove 20s infinite linear;
 }
 .barrel::before {
-    width: 5vw;
-    height: 5vh;
+    width: 1vw;
+    height: 1vh;
     background: chartreuse;
 }
 
